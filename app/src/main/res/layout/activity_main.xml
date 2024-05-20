@@ -49,6 +49,7 @@
             android:textColorHint="@color/gristexto">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtNombreUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jua"
@@ -80,6 +81,7 @@
             android:textColorHint="@color/gristexto">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtApellidoUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jua"
@@ -109,7 +111,7 @@
             android:background="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
-
+                android:id="@+id/txtEmailUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jua"
@@ -143,6 +145,7 @@
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtContraseniaUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jua"
@@ -175,6 +178,7 @@
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtRepetirContrasenaUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jua"

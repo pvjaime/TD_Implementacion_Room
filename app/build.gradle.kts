@@ -57,6 +57,6 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     annotationProcessor(libs.androidx.room.compiler)
 
-    ksp(libs.androidx.room.compiler.v250)
+    ksp(libs.androidx.room.compiler)
 
 }
